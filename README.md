@@ -38,3 +38,4 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 **working day & holiday analysis:**
 - There were Only 2.8 percent of Holiday records out of 10 thousand records where non-working days holds 32% of records, this difference is because of which weekends were not included in holidays.
 - Working day holds 68 % of the data whereas non-holiday holds 97% of the records
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/cd9ff810e3a7ecaedf6ea8f0bff682105b5dff21/work-nonwork.png)
