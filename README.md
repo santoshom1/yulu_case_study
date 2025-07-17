@@ -42,4 +42,6 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 **season and workingday:**
 - Three seasons summer, winter and fall are mostly having same value holding 2730 records each However fall is having Most number of bike rentals followed by summer and winter. where as spring shows a high dip on the bike rentals.
-![image_alt]()
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/Screenshot%202025-07-17%20190230.png)
+- from the below barplot it is observed that working has no effect on the bike rentals season wise. For any season whether it might be a working day or not the impact on the bike rentals looks significantly similar.
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/seasonal.png)
