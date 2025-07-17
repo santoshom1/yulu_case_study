@@ -1,1 +1,39 @@
 # yulu_case_study
+Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting.
+Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient. 
+Yulu has recently suffered considerable dips in its revenues. They have contracted a consulting company to understand the factors on which the demand for these shared electric cycles depends. Specifically, they want to understand the factors affecting the demand for these shared electric cycles in the Indian market.
+# the company wants to know
+- Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
+- How well those variables describe the electric cycle demands
+# dataset - [link](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/428/original/bike_sharing.csv?1642089089)
+
+- Click here to view the full case study notebook:
+📘 [View Notebook](Yulu.ipynb)
+- Open it directly in Colab:  [▶️ Open in Colab (right-click to open in new tab)](https://colab.research.google.com/drive/1W0CqPQukjjhwfaMl6nTZaYWC-KL49mPC)
+
+# Basic Exploration
+- There are 10886 rows of data for each column
+- Here columns seems to be having one object type variable and rest other are numeric variables
+- The data has No missing values or null values or any duplicated values
+- Datetime columns holds unique values for every row, season and weather has on 4 unique categories followed by holiday and workingday columns having 2 unique categories.
+
+- For these columns it is better for our understanding to assign unique names for unique categories in each column as given in the problem statement .Now we have 5 object type columns, and 7 numerical and 1 date time column in the data.
+
+## UNIVARIATE ANALYSIS
+**Temperature(temp)** :  The temperature data is roughly normally distributed , indicating moderate temperature  are the most common
+
+**Humidity**  : Humidity data is also similar to normal distribution with a peak around 60-80%, Indicating moderate to high humidity is common.
+
+**Windspeed** :  Windspeed data is heavily skewed towards lower values indicating most days have lower wind speeds
+
+**Casual** : The distribution is heavily right skewed with most days having  a low number of casual users  but a very few days showing high usage
+
+**Registered** : Similar to casual users the distribution is right skewed  though the count of registered users generally higher than casual users 
+
+**Total Rentals** :  The distribution is right-skewed, with most days having a low total count of rentals, but a significant number of days having high rental counts
+
+
+## BI-VARIATE ANALYSIS:
+**working day & holiday analysis:**
+- There were Only 2.8 percent of Holiday records out of 10 thousand records where non-working days holds 32% of records, this difference is because of which weekends were not included in holidays.
+- Working day holds 68 % of the data whereas non-holiday holds 97% of the records
