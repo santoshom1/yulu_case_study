@@ -32,6 +32,7 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 **Total Rentals** :  The distribution is right-skewed, with most days having a low total count of rentals, but a significant number of days having high rental counts
 
+[image](https://github.com/santoshom1/yulu_case_study/blob/e8ea4124ea1085a408bf0dbdb15838db248560c2/Uni-variate.png)
 
 ## BI-VARIATE ANALYSIS:
 **working day & holiday analysis:**
