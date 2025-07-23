@@ -50,6 +50,14 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Most of the data contains the record of the weather condition as clear or cloudy and most of the rentals were made in this weather condition only as it is suitable for anyone to ride in this condition.
 - The second most is misty and cloudy weather where it holds 5 lakh number of bike rentals closely to 30 % of the total rentals
 - Heavy rain and snowy weather shows the least number of bike rentals, as weather is not suitable for anyone to be outside the roof.
-- the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
-  where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.
+
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/1cc0cbc578665a74a69cd2955ee1af5c71d35cdf/season%2Bweather.png)
+
+**the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
+  where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.**
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/f7937365c946230cd6729af081cd9bb5b06dd769/monthly.png)
+
+**temperature vs totalrentals:**
+- Bike rentals were mostly rented in between the temperature of 15 to 35 celcius , indicating moderate temperature are the most common
+- The temperature people likely to rent a bike and travel is around the temperature between 25 to 30 celcius as shown in the picture below
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/f7937365c946230cd6729af081cd9bb5b06dd769/temp.png)
