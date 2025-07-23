@@ -45,3 +45,11 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/Screenshot%202025-07-17%20190230.png)
 - from the below barplot it is observed that working has no effect on the bike rentals season wise. For any season whether it might be a working day or not the impact on the bike rentals looks significantly similar.
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/seasonal.png)
+
+**season and weather:**
+- Most of the data contains the record of the weather condition as clear or cloudy and most of the rentals were made in this weather condition only as it is suitable for anyone to ride in this condition.
+- The second most is misty and cloudy weather where it holds 5 lakh number of bike rentals closely to 30 % of the total rentals
+- Heavy rain and snowy weather shows the least number of bike rentals, as weather is not suitable for anyone to be outside the roof.
+- the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
+  where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.
+![image_alt}(
