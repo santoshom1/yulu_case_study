@@ -52,4 +52,4 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Heavy rain and snowy weather shows the least number of bike rentals, as weather is not suitable for anyone to be outside the roof.
 - the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
   where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.
-![image_alt}(
+![image_alt}(https://github.com/santoshom1/yulu_case_study/blob/1cc0cbc578665a74a69cd2955ee1af5c71d35cdf/season%2Bweather.png)
