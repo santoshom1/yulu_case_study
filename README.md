@@ -75,14 +75,16 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/temp%20vs%20total.png)
 
 
-***Business Objective:***
+***Business Objective 1:***
 
-**Which variables are significant in predicting the demand for shared electric cycles in the indian market?**
+**- Which variables are significant in predicting the demand for shared electric cycles in the indian market?**
 
 ***Strategic Objective:***
 
 - for this to be answered there are some variables that needs to be tested with count of bike_rentals to check for dependency.
+- 
 **Weather vs Total_rentals:**
+  
 - H0 : There is no significant difference in bicycle demand across different weather conditions.
 - H1 : There is a significant difference in bicycle demand across different weather conditions.
 *weather where heavy rain or snow occurs has no significance to the demand as it has fewer records.*
@@ -101,9 +103,9 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Here Pval : 2.2263613e-151, Consider an alpha as 0.05. since pval is very much lesser than alpha Null Hypothesis is Rejected and We can conclude that ***Season has effect on bike rentals.***
 ***As per the numbers working day and holiday columns any way have power over demand for bike rentals.***
 
-***Business Objective:***
+***Business Objective 2:***
 
-**Working day has effect on number of electric cycles rented?**
+**- Working day has effect on number of electric cycles rented?**
 
 ***Strategic Objective:***
 
@@ -115,20 +117,95 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - kruskal test is one of the non-parametric test which is replacement of ANOVA when anova assumptions are not met. After doing kruskal-vallis test p-value obtained is signifcantly lower than any aplha value hen null hypothesis is rejected.
 - Here Pval :0.9667, Consider an alpha as 0.05. since pval is very much higher than alpha we fail to reject Null Hypothesis and We can conclude that ***working day has no effect on bike rentals.***
 
-***Business Objective:***
+***Business Objective 3:***
 
-**No.of  Cycles rented similar or diffrent in diffrent seasons?**
+**- No.of  Cycles rented similar or diffrent in diffrent seasons?**
 
 ***Strategic Objective:***
 
 - Number of cycles rented are different in different seasons
 
-image
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/9b6ee19dbaa862ad4635260b48027485ad447ec3/Screenshot%202025-07-24%20150842.png)
 
-***Business Objective:***
+***Business Objective 4:***
 
-**No.of Cycles rented similar or different in different weather?**
+**- No.of Cycles rented similar or different in different weather?**
 
 ***Strategic Objective:***
 - yes, number of cycles rented rented are diffrent in different weather 
-image
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/9b6ee19dbaa862ad4635260b48027485ad447ec3/Screenshot%202025-07-24%20150912.png)
+
+- ***From the above Data it is clearly observed that people are mostly like to prefer clear or cloudy weather to rent a bicycle.***
+
+**CORRELATION BETWEEN FEATURES:**
+<img width="1920" height="1080" alt="Screenshot (3680)" src="https://github.com/user-attachments/assets/584fbc89-a2db-4e52-b6ce-c8ce2940d83d" />
+
+**High positive Correlation:** 
+
+- Registered And Total_rentals: 
+The number of registered users is highly positively correlated with the total count of rentals at 0.97, implying that registered users significantly contribute to the overall count.
+- Casual Ans Total_rentals: 
+The number of Casual users is highly positively correlated with the total count of rentals at 0.69, implying that Casual users are considerable part of the total users base.
+
+**Moderate positive Correlation:**
+- temp and total rentals: Temp and total rentals are correlated at a value of 0.39, this suggests that higher temperatures are associted with an increased demand for bicycles.
+
+**Negative Correlation:**
+
+- Humidity and  total rentals: 
+Humidity and count are correlated at a value of -0.32, Higher humidity values are moderately negatively correlated with the total rentals  indicating that people are less likely to rent bicycles in more humid conditions.
+
+- windspeed and casual : 
+windspeed negatively correlates with the count of casual users at -0.32, suggesting that higher windspeeds may prevent the occurances of casual users.
+
+**Observation:**
+
+- weather and humidity(0.41) : weather conditions show a moderate positive correlation with humidity, indicating that certain weather conditions are associated with higher humidity levels.
+
+***BUSINESS INSIGHTS:***
+
+-**Temperature influence:**
+Higher temperatures are associate with the increased bicycle rentals. 
+
+**Strategic Implication:**
+Enhance service availability and marketing efforts During warmer periods to capture higher demands.
+
+**Humidity and Windspeed:**
+Higher humidity and windspeed negatively affect bicycle rentals. Humidity shows a negative correlation(-0.32) with total rentals while wind speed negatively correlates (-0.32) with casual users.
+
+**Strategic Implication:**
+Provide incentives or promotions during high humidity or wind speed periods to maintain rental numbers.
+
+**Weather Conditions:**
+weather condition significantly affect bicycle demand. Clear weather pulls the highest demand, while adverse weather condition reduce rentals.
+
+**Strategic Implication:**
+Monitor weather forecasts and adjust operations accordingly, possibly offering discounts or special services during less favorable weather.
+
+**Seasonal variations:**
+Bicycle demand varies significantly across seasons, with specific seasons showing higher total rentals.
+
+**Strategic Implication:**
+Plan inventory and staffing based on seasonal demand trends to optimize operations and costs.
+
+**Registered vs Casual Users:**
+Registered users have a high positive correlation (0.97) with the total count, indicating they are the primary drivers of demand while casual users also significantly contribute to the total count(0.69)
+
+**Strategic Implication:**
+Focusing on expanding the registered user base through loyalty programs and target marketing.
+
+**Weekday vs Weekend Demand:**
+There is no significant difference in the number of bike rides between weekdays and weekends.
+
+**Strategic Implication:**
+Maintain consistent service levels throughout the week, without needing drastic operational changes between weekdays and weekends.
+
+**Impact of Holidays:**
+Holidays account for a small propotion of the data but can show spikes in the demand.
+
+**Strategic Implication:**
+prepare for potential demand spikes on holidays with promotional events or increased inventory.
+
+**CONCLUSION:**
+
+*By leveraging these insights, Yulu can enhance their operational efficiency , optimize inventory management, and develop targeted marketing strategies. Understanding the impact of various factors on bicycle demand enables data-driven decision making, leading to improved customer satisfaction and increased profitability.*
