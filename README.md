@@ -1,17 +1,24 @@
-# yulu_case_study
+## TABLE OF CONTENT:
+- [ABOUT YULU & DATASET](#yulu-case-study)
+- [UNIVARIATE ANALYSIS](#univariate-analysis)
+- [BI-VARIATE ANALYSIS](#bi-variate-analysis)
+- 
+
+
+## yulu case study
 Yulu is India’s leading micro-mobility service provider, which offers unique vehicles for the daily commute. Starting off as a mission to eliminate traffic congestion in India, Yulu provides the safest commute solution through a user-friendly mobile app to enable shared, solo and sustainable commuting.
 Yulu zones are located at all the appropriate locations (including metro stations, bus stands, office spaces, residential areas, corporate offices, etc) to make those first and last miles smooth, affordable, and convenient. 
 Yulu has recently suffered considerable dips in its revenues. They have contracted a consulting company to understand the factors on which the demand for these shared electric cycles depends. Specifically, they want to understand the factors affecting the demand for these shared electric cycles in the Indian market.
-# the company wants to know
+## the company wants to know
 - Which variables are significant in predicting the demand for shared electric cycles in the Indian market?
 - How well those variables describe the electric cycle demands
-# dataset - [link](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/428/original/bike_sharing.csv?1642089089)
+## dataset - [link](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/428/original/bike_sharing.csv?1642089089)
 
 - Click here to view the full case study notebook:
 📘 [View Notebook](Yulu.ipynb)
 - Open it directly in Colab:  [▶️ Open in Colab (right-click to open in new tab)](https://colab.research.google.com/drive/1W0CqPQukjjhwfaMl6nTZaYWC-KL49mPC)
 
-# Basic Exploration
+## Basic Exploration
 - There are 10886 rows of data for each column
 - Here columns seems to be having one object type variable and rest other are numeric variables
 - The data has No missing values or null values or any duplicated values
