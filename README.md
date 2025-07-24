@@ -42,8 +42,10 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 **season and workingday:**
 - Three seasons summer, winter and fall are mostly having same value holding 2730 records each However fall is having Most number of bike rentals followed by summer and winter. where as spring shows a high dip on the bike rentals.
+
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/Screenshot%202025-07-17%20190230.png)
 - from the below barplot it is observed that working has no effect on the bike rentals season wise. For any season whether it might be a working day or not the impact on the bike rentals looks significantly similar.
+
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/seasonal.png)
 
 **season and weather:**
@@ -52,11 +54,7 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Heavy rain and snowy weather shows the least number of bike rentals, as weather is not suitable for anyone to be outside the roof.
 - the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
   where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.
-
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/1cc0cbc578665a74a69cd2955ee1af5c71d35cdf/season%2Bweather.png)
-
-**Sales over time**
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/f7937365c946230cd6729af081cd9bb5b06dd769/monthly.png)
 
 **temperature vs totalrentals:**
 - Bike rentals were mostly rented in between the temperature of 15 to 35 celcius , indicating moderate temperature are the most common
@@ -64,13 +62,25 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/f7937365c946230cd6729af081cd9bb5b06dd769/temp.png)
 
 - The temperature people likely to rent a bike and travel is around the temperature between 25 to 30 celcius as shown in the picture below
-image
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/ws%20vs%20total%202.png)
 
 **Humidity vs Total_rentals:**
 - The Humidity in which people likely to rent a bike and travel is between 40 to 60 as shown in the picture below
-  image
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/ws%20vs%20total%201.png)
 
 **windspeed vs Total_rentals:**
 - The Windspeed where people likely to rent a bike and travel is around the windspeed between 0 to 20  as shown in the picture below, more the windspeed less people are likely to rent a bike,
-iamges
 
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/temp%20vs%20total.png)
+
+
+*Business Objective:*
+
+**Which variables are significant in predicting the demand for shared electric cycles in the indian market?**
+
+*Strategic Objective*
+
+- for this to be answered there are some variables that needs to be tested with count of bike_rentals to check for dependency.
+**Weather vs Total_rentals:**
+- H0 : There is no significant difference in bicycle demand across different weather conditions.
+- H1 : There is a significant difference in bicycle demand across different weather conditions.
