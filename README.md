@@ -2,7 +2,13 @@
 - [ABOUT YULU & DATASET](#yulu-case-study)
 - [UNIVARIATE ANALYSIS](#univariate-analysis)
 - [BI-VARIATE ANALYSIS](#bi-variate-analysis)
-- 
+- [BUSINESS OBJECTIVE 1](#business-objective-1)
+- [BUSINESS OBJECTIVE 2](#business-objective-2)
+- [BUSINESS OBJECTIVE 3](#business-objective-3)
+- [BUSINESS OBJECTIVE 4](#business-objective-4)
+- [CORRELATION BETWEEN FEATURES](#correlation-between-features)
+- [BUSINESS INSIGHTS](#business-insights)
+- [CONCLUSION](#conclusion)
 
 
 ## yulu case study
@@ -82,9 +88,9 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/temp%20vs%20total.png)
 
 
-***Business Objective 1:***
+## Business Objective 1:
 
-**- Which variables are significant in predicting the demand for shared electric cycles in the indian market?**
+***- Which variables are significant in predicting the demand for shared electric cycles in the indian market?***
 
 ***Strategic Objective:***
 
@@ -110,9 +116,9 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Here Pval : 2.2263613e-151, Consider an alpha as 0.05. since pval is very much lesser than alpha Null Hypothesis is Rejected and We can conclude that ***Season has effect on bike rentals.***
 ***As per the numbers working day and holiday columns any way have power over demand for bike rentals.***
 
-***Business Objective 2:***
+## Business Objective 2:
 
-**- Working day has effect on number of electric cycles rented?**
+***- Working day has effect on number of electric cycles rented?***
 
 ***Strategic Objective:***
 
@@ -124,9 +130,9 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - kruskal test is one of the non-parametric test which is replacement of ANOVA when anova assumptions are not met. After doing kruskal-vallis test p-value obtained is signifcantly lower than any aplha value hen null hypothesis is rejected.
 - Here Pval :0.9667, Consider an alpha as 0.05. since pval is very much higher than alpha we fail to reject Null Hypothesis and We can conclude that ***working day has no effect on bike rentals.***
 
-***Business Objective 3:***
+## Business Objective 3:
 
-**- No.of  Cycles rented similar or diffrent in diffrent seasons?**
+***- No.of  Cycles rented similar or diffrent in diffrent seasons?***
 
 ***Strategic Objective:***
 
@@ -134,9 +140,9 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/9b6ee19dbaa862ad4635260b48027485ad447ec3/Screenshot%202025-07-24%20150842.png)
 
-***Business Objective 4:***
+## Business Objective 4:
 
-**- No.of Cycles rented similar or different in different weather?**
+***- No.of Cycles rented similar or different in different weather?***
 
 ***Strategic Objective:***
 - yes, number of cycles rented rented are diffrent in different weather 
@@ -144,7 +150,7 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 - ***From the above Data it is clearly observed that people are mostly like to prefer clear or cloudy weather to rent a bicycle.***
 
-**CORRELATION BETWEEN FEATURES:**
+## CORRELATION BETWEEN FEATURES:
 <img width="1920" height="1080" alt="Screenshot (3680)" src="https://github.com/user-attachments/assets/584fbc89-a2db-4e52-b6ce-c8ce2940d83d" />
 
 **High positive Correlation:** 
@@ -169,7 +175,7 @@ windspeed negatively correlates with the count of casual users at -0.32, suggest
 
 - weather and humidity(0.41) : weather conditions show a moderate positive correlation with humidity, indicating that certain weather conditions are associated with higher humidity levels.
 
-***BUSINESS INSIGHTS:***
+## BUSINESS INSIGHTS:
 
 -**Temperature influence:**
 Higher temperatures are associate with the increased bicycle rentals. 
@@ -213,6 +219,6 @@ Holidays account for a small propotion of the data but can show spikes in the de
 **Strategic Implication:**
 prepare for potential demand spikes on holidays with promotional events or increased inventory.
 
-**CONCLUSION:**
+## CONCLUSION:
 
 *By leveraging these insights, Yulu can enhance their operational efficiency , optimize inventory management, and develop targeted marketing strategies. Understanding the impact of various factors on bicycle demand enables data-driven decision making, leading to improved customer satisfaction and increased profitability.*
