@@ -70,17 +70,65 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 **windspeed vs Total_rentals:**
 - The Windspeed where people likely to rent a bike and travel is around the windspeed between 0 to 20  as shown in the picture below, more the windspeed less people are likely to rent a bike,
-
+- 
+![image_alt](https://github.com/santoshom1/yulu_case_study/blob/a75b9166a9b4e846fdf1b90860ff56624d2f55a8/humidity%20vs%20total.png)
 ![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/temp%20vs%20total.png)
 
 
-*Business Objective:*
+***Business Objective:***
 
 **Which variables are significant in predicting the demand for shared electric cycles in the indian market?**
 
-*Strategic Objective*
+***Strategic Objective:***
 
 - for this to be answered there are some variables that needs to be tested with count of bike_rentals to check for dependency.
 **Weather vs Total_rentals:**
 - H0 : There is no significant difference in bicycle demand across different weather conditions.
 - H1 : There is a significant difference in bicycle demand across different weather conditions.
+*weather where heavy rain or snow occurs has no significance to the demand as it has fewer records.*
+- the qqplot we got shows us that data is not normally distributed and for levene's test also shows us variances are not equal which brings us to non-parametric tests.
+- kruskal test is one of the non-parametric test which is replacement of ANOVA when anova assumptions are not met. After doing kruskal-vallis test p-value obtained is signifcantly lower than any aplha value then null hypothesis is rejected.
+- Here; pval = 3.12206618e-45, Consider an alpha as 0.05. since pval is very much lesser than alpha Null Hypothesis is Rejected and We can conclude that ***There is a significant difference in bicycle demand across different weather conditions.***
+- 
+**Season vs Total-rentals:**
+  
+**H0 : Season has no effect on bike rentals**
+
+**H1 : Season has effect on bike rentals**
+- Three seasons summer, winter and fall are mostly having same value holding 2730 records each However fall is having Most number of bike rentals followed by summer and winter. where as spring shows a high dip on the bike rentals.
+- the qqplot we got shows us that data is not normally distributed and for levene's test also shows us variances are not equal which brings us to non-parametric tests.
+- kruskal test is one of the non-parametric test which is replacement of ANOVA when anova assumptions are not met. After doing kruskal-vallis test p-value obtained is signifcantly lower than any aplha value hen null hypothesis is rejected.
+- Here Pval : 2.2263613e-151, Consider an alpha as 0.05. since pval is very much lesser than alpha Null Hypothesis is Rejected and We can conclude that ***Season has effect on bike rentals.***
+***As per the numbers working day and holiday columns any way have power over demand for bike rentals.***
+
+***Business Objective:***
+
+**Working day has effect on number of electric cycles rented?**
+
+***Strategic Objective:***
+
+**H0 : Working day has no effect on bike rentals**
+
+**H1 : Working day has effect on bike rentals**
+- A non working day has over 6.5lakh bike rental records where as a working day holds records 14.5 lakh bike rentals which suggests that bikes are mostly rented by employees on their way to office from home or home from office
+- the qqplot we got shows us that data is not normally distributed and for levene's test also shows us variances are not equal which brings us to non-parametric tests.
+- kruskal test is one of the non-parametric test which is replacement of ANOVA when anova assumptions are not met. After doing kruskal-vallis test p-value obtained is signifcantly lower than any aplha value hen null hypothesis is rejected.
+- Here Pval :0.9667, Consider an alpha as 0.05. since pval is very much higher than alpha we fail to reject Null Hypothesis and We can conclude that ***working day has no effect on bike rentals.***
+
+***Business Objective:***
+
+**No.of  Cycles rented similar or diffrent in diffrent seasons?**
+
+***Strategic Objective:***
+
+- Number of cycles rented are different in different seasons
+
+image
+
+***Business Objective:***
+
+**No.of Cycles rented similar or different in different weather?**
+
+***Strategic Objective:***
+- yes, number of cycles rented rented are diffrent in different weather 
+image
