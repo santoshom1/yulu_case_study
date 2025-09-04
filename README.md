@@ -45,21 +45,25 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 **Total Rentals** :  The distribution is right-skewed, with most days having a low total count of rentals, but a significant number of days having high rental counts
 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/e8ea4124ea1085a408bf0dbdb15838db248560c2/Uni-variate.png)
+<img width="1069" height="746" alt="image" src="https://github.com/user-attachments/assets/467f6266-e9f4-4236-8955-7bb446047c2a" />
+
 
 ## BI-VARIATE ANALYSIS:
 **working day & holiday analysis:**
 - There were Only 2.8 percent of Holiday records out of 10 thousand records where non-working days holds 32% of records, this difference is because of which weekends were not included in holidays.
 - Working day holds 68 % of the data whereas non-holiday holds 97% of the records
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/cd9ff810e3a7ecaedf6ea8f0bff682105b5dff21/work-nonwork.png)
+
+<img width="652" height="487" alt="image" src="https://github.com/user-attachments/assets/87b6ac4f-2aa1-458e-bbf1-e1e6ba5af811" />
+
 
 **season and workingday:**
 - Three seasons summer, winter and fall are mostly having same value holding 2730 records each However fall is having Most number of bike rentals followed by summer and winter. where as spring shows a high dip on the bike rentals.
 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/Screenshot%202025-07-17%20190230.png)
+<img width="282" height="262" alt="image" src="https://github.com/user-attachments/assets/d48717f9-ce14-45e5-8839-c98653384339" />
+
 - from the below barplot it is observed that working has no effect on the bike rentals season wise. For any season whether it might be a working day or not the impact on the bike rentals looks significantly similar.
 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/109e5352637bbeb28a89470e833908e060b3b58f/seasonal.png)
+<img width="586" height="460" alt="image" src="https://github.com/user-attachments/assets/c07e4004-0ec3-4fb4-bfb8-13b938e098a5" />
 
 **season and weather:**
 - Most of the data contains the record of the weather condition as clear or cloudy and most of the rentals were made in this weather condition only as it is suitable for anyone to ride in this condition.
@@ -67,25 +71,30 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 - Heavy rain and snowy weather shows the least number of bike rentals, as weather is not suitable for anyone to be outside the roof.
 - the below bar plot tells us spring being the least contributor to the total bike rentals across all weather conditions.
   where as the rest of three seasons shows significantly contributing equally to the total rentals across all the seasons.
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/1cc0cbc578665a74a69cd2955ee1af5c71d35cdf/season%2Bweather.png)
+<img width="606" height="466" alt="image" src="https://github.com/user-attachments/assets/dee1f9e1-3651-4e59-b9ee-fa7056689b7b" />
+
 
 **temperature vs totalrentals:**
 - Bike rentals were mostly rented in between the temperature of 15 to 35 celcius , indicating moderate temperature are the most common
 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/f7937365c946230cd6729af081cd9bb5b06dd769/temp.png)
+<img width="1040" height="488" alt="image" src="https://github.com/user-attachments/assets/8764524c-dd2f-4586-9d1f-b48e976fe19b" />
+
 
 - The temperature people likely to rent a bike and travel is around the temperature between 25 to 30 celcius as shown in the picture below
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/ws%20vs%20total%202.png)
+<img width="219" height="276" alt="image" src="https://github.com/user-attachments/assets/8526ac20-c236-4ef0-8ed1-660507165eb9" />
+
 
 **Humidity vs Total_rentals:**
 - The Humidity in which people likely to rent a bike and travel is between 40 to 60 as shown in the picture below
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/ws%20vs%20total%201.png)
+<img width="238" height="428" alt="image" src="https://github.com/user-attachments/assets/a9c04556-f75a-4e98-a519-7e80bc0ced92" />
+
 
 **windspeed vs Total_rentals:**
 - The Windspeed where people likely to rent a bike and travel is around the windspeed between 0 to 20  as shown in the picture below, more the windspeed less people are likely to rent a bike,
 - 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/a75b9166a9b4e846fdf1b90860ff56624d2f55a8/humidity%20vs%20total.png)
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/d70893b836f94f11574a9c87ab823e31528267dc/temp%20vs%20total.png)
+<img width="247" height="288" alt="image" src="https://github.com/user-attachments/assets/db197387-38b6-4728-9953-aae64f86755a" />
+
+<img width="279" height="293" alt="image" src="https://github.com/user-attachments/assets/61e00bc9-8185-4c0e-8b36-342b1a00a564" />
 
 
 ## Business Objective 1:
@@ -138,15 +147,18 @@ Yulu has recently suffered considerable dips in its revenues. They have contract
 
 - Number of cycles rented are different in different seasons
 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/9b6ee19dbaa862ad4635260b48027485ad447ec3/Screenshot%202025-07-24%20150842.png)
+<img width="836" height="620" alt="image" src="https://github.com/user-attachments/assets/21bc7315-9b0a-4719-aa02-f4f261898db5" />
+
 
 ## Business Objective 4:
 
 ***- No.of Cycles rented similar or different in different weather?***
 
 ***Strategic Objective:***
-- yes, number of cycles rented rented are diffrent in different weather 
-![image_alt](https://github.com/santoshom1/yulu_case_study/blob/9b6ee19dbaa862ad4635260b48027485ad447ec3/Screenshot%202025-07-24%20150912.png)
+- yes, number of cycles rented rented are diffrent in different weather
+
+<img width="809" height="607" alt="image" src="https://github.com/user-attachments/assets/c366b766-0151-447d-b49b-ab81efa7edcb" />
+
 
 - ***From the above Data it is clearly observed that people are mostly like to prefer clear or cloudy weather to rent a bicycle.***
 
